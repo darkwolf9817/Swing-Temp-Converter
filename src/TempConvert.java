@@ -27,7 +27,7 @@ public class TempConvert extends JFrame {
             @Override
             public void mouseClicked(MouseEvent e) {
                 String inUnit = cbxTempIn.getSelectedItem().toString();
-                String outUnit = cbxTempIn.getSelectedItem().toString();
+                String outUnit = cbxTempOut.getSelectedItem().toString();
                 double tempIn = Double.parseDouble(txtTempIn.getText());
 
                 double convertedTemp = convert(inUnit, outUnit, tempIn);
